@@ -10,7 +10,3 @@ def generate_html(num, file_out):
         for i in range(num):
             url = generate_random_url()
             f.write('<a href="'+url+'">'+url+'</a><br/>\n')
-
-print "Generating HTML..."
-generate_html(25, 'test_random_imgur.html')
-print "Generated"
