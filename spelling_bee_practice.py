@@ -46,3 +46,4 @@ if com.lower() == 'start':
                 print tstr("Words match!")
                 correct_words += 1
                 overall_words += 1
+
