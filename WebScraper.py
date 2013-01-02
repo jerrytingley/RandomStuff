@@ -40,6 +40,3 @@ class WebScraper:
                 except Exception, err:
                     print "[!!] ", err
                     pass
-
-robot = WebScraper(['http://boards.4chan.org/tv/res/28390386'], robots = False)
-robot.download('png', 'jpg')
