@@ -40,3 +40,4 @@ class WebScraper:
                 except Exception, err:
                     print "[!!] ", err
                     pass
+
