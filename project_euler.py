@@ -1,7 +1,6 @@
 def problem_1():
     s = 0
-    for x in range(0, 1000):
-        if (x % 3) == 0 or (x % 5) == 0: s += x
+    for x in range(0, 1000): if (x % 3) == 0 or (x % 5) == 0: s += x
     return s
 
 def problem_2():
