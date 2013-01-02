@@ -22,8 +22,7 @@ class WebScraper:
         for url in self.urls:
             self.__br.open(url)
             fol = self.__folder_encode(url)
-            if not os.path.exists(self.__folder_encode(url)):
-                os.mkdir(self.__folder_encode(url))
+            if not os.path.exists(self.__folder_encode(url)): os.mkdir(self.__folder_encode(url))
             if verbose: print "[*] Scraping: ", self.__br.title()
             
             for link in self.__br.links():
