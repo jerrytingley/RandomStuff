@@ -1,5 +1,4 @@
 from __future__ import division
-## Misc functions, mainly math related
 
 # Can be found through:
 # phi = (1/2)*(1 + math.sqrt(5)) = (1/2)*(1 + 2.23606797749979)
